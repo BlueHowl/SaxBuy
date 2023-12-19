@@ -1,0 +1,153 @@
+body {
+ 	background-image: url('../img/2.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  box-sizing: border-box !important;
+}
+
+.sort {
+  display: flex;
+  flex: auto;
+}
+
+.product-filter {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px 20px 10px;
+  background-color: rgba(40, 46, 52, 0.8);
+  border-radius: 4px;
+}
+
+.product-filter h1 {
+  flex-grow: 1;
+}
+
+.collection-sort {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  flex-shrink: 1;
+  padding-bottom: 5px;
+}
+
+.collection-sort select {
+	width: 100%
+}
+
+.collection-search {
+  flex-grow: 1;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+	padding: 1.5%;
+ 	flex-grow: 1;
+  	flex-basis: 15%;
+  	margin: 0.4%;
+  	background-color: rgba(40, 46, 52, 0.5);
+  	border-radius: 6px;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	filter: drop-shadow(2px 4px 6px black);
+  	animation: fadein 1.5s;
+}
+
+
+.card-href {
+	filter: drop-shadow(2px 4px 10px black);
+  text-decoration: none;
+  height: 100%;
+  display: grid;
+}
+
+.card-href:hover .product-image{
+  filter: blur(2px);
+}
+
+.card-href:hover .content-details{
+	top: 50%;
+  	left: 50%;
+  	opacity: 1;
+}
+
+.content-details h4 {
+	font-size: 30px;
+	color: #fff;
+	-webkit-text-stroke: inherit;
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+  /*margin-bottom: 25px;
+  width: max-content;*/
+}
+
+a:focus, a:hover {
+  text-decoration: none !important;
+}
+
+.product-info h3 {
+	color: #fff;
+}
+
+.product-info h4 {
+	color: #FFD732;
+}
+
+#searchbar{
+  width: 75%;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  margin: 16px 15px 10px;
+  color: black;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+    	opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.shopshowrate:not(:checked) > input {
+  position:absolute;
+  display: none;
+}
+.shopshowrate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:20px;
+  color:#ccc;
+}
+.shopshowrate:not(:checked) > label:before {
+  content: '★ ';
+}

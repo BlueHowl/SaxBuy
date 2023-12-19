@@ -1,0 +1,20 @@
+.custom-select {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.btn-primary-i {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: white;
+  width: inherit !important;
+}
+
+.btn:hover, .btn:focus {
+color: #fff !important;
+text-decoration: none;
+}

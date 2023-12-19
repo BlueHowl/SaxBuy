@@ -1,0 +1,367 @@
+.price {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.addButton {
+  display: inline-block;
+  background-color: #FFD732;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+  border: 0;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #ff9626;
+}
+
+.choice {
+  margin-bottom: 20px;
+}
+
+.choice button {
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  padding: 13px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .5s;
+  margin-top: 10px;
+}
+
+.choice button:hover,
+.choice button:active,
+.choice button:focus {
+  border: 2px solid #86939E;
+  outline: none;
+}
+
+.button_choice {
+  border-bottom: 1px solid #E1E8EE;
+}
+
+.button_choice a {
+  color: #358ED7;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.button_choice a:before {
+  content: &amp;quot;?&amp;quot;;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(53, 142, 215, 0.5);
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  opacity: 0.5;
+  margin-right: 5px;
+}
+
+.description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #FFD732;
+  letter-spacing: -2px;
+  line-height: 50px;
+}
+
+.description h3 {
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open-Sans', sans-serif;
+  background-color: #000 !important;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 40px auto;
+  padding: 5px 15px, 15px;
+  display: flex;
+  background-color: rgba(40, 46, 52, 0.9);
+  border-radius: 10px;
+  animation: fadein 1.5s;
+}
+
+.img_preview {
+  width: 65%;
+  position: relative;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+.img_preview img {
+  width: 80%;
+  position: relative;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all 0.3s ease;
+  float: right;
+  padding-top: 60px;
+}
+
+@keyframes fadein {
+  from { transform: translateX(-100%);}
+  to   { transform: translateX(0);}
+}
+
+
+.user_avatar {
+  width: 65px;
+  height: 65px;
+
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+.user_avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.comment_block {
+  width: 65%;
+  height: 100%;
+
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.create_new_comment {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.input_comment {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-top: 6px;
+  margin-left: 10px;
+  width: calc(100% - 81px);
+}
+
+input[type="text"] {
+  width: 100%;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: black;
+
+  padding: 10px;
+
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.new_comment {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  border-top: 1px solid #E1E8EE;
+}
+
+.user_comment {
+  list-style-type: none;
+}
+
+.comment_body {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: calc(100% - 100px);
+  min-height: 65px;
+  /*margin-left: 10px;*/
+  padding: 5px 10px;
+  font-size: .9rem;
+  color: #555;
+  background-color: #FFF;
+  float: right;
+}
+
+.comment_toolbar {
+  width: 100%;
+  float: left;
+  margin-top: -5px;
+}
+
+li:not(:last-child) .comment_toolbar {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 10px;
+}
+
+.comment_toolbar ul {
+  list-style-type: none;
+  padding-left: 75px;
+  font-size: 0;
+}
+
+.comment_toolbar ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: .7rem;
+  color: lighten(#CCC, 5%);
+}
+
+.comment_toolbar ul li:hover {
+  cursor: pointer; 
+}
+
+.comment_details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  text-align: left;
+}
+
+.comment_tools {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  text-align: right;
+}
+
+.comment_tools li:hover {
+  color: #CCC;
+}
+
+.profil_img {
+  width: 65px;
+  height: 65px;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  border: 3px solid white;
+  background-position: center;
+  background-size: cover;
+  flex:none;
+  display: grid;
+  background-color: #FFD732;
+  float: left;
+}
+
+.rate {
+  float: left;
+  padding-top: 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  display: none;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/*showrate*/
+
+.showrate {
+  float: left;
+  padding-top: 10px;
+}
+.showrate:not(:checked) > input {
+  position:absolute;
+  display: none;
+}
+.showrate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:30px;
+  color:#ccc;
+}
+.showrate:not(:checked) > label:before {
+  content: '★ ';
+}
+
+/*comment showrate*/
+.commentshowrate {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.commentshowrate:not(:checked) > input {
+  position:absolute;
+  display: none;
+}
+.commentshowrate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:14px;
+  color:#ccc;
+}
+.commentshowrate:not(:checked) > label:before {
+  content: '★ ';
+}

@@ -1,0 +1,100 @@
+NAVMENU=null&
+li0=Accueil&
+li1=Boutique&
+li2=Se connecter&
+li3=S'identifier&
+li4=Panier&
+li5=Compte&
+li6=Panneau d'administration&
+li7=Se déconnecter&
+disconnetMsg=Vous êtes sur le point de vous déconnecter, êtes vous sûr ?&
+topBtn=Défiler vers le haut&
+,*-
+INDEX=null&
+p0=SaxBuy est le pionnier des sites en ligne spécialisés dans la vente de saxophones.&
+p1=Découvrez dès à présent un large choix de saxophones de tous types et de toutes marques, disponibles dans notre catalogue.&
+p2=Tous les produits bénéficient d'une garantie d'un an et d'un contrôle de qualité gratuite avant la livraison.&
+p3=Le délai de livraison dépasse rarement 2 semaines.&
+p4=Service après-vente de qualité, réactif et compétent garantie, 24/7.&
+shopBtn=Accéder à la boutique&
+highlightTitle=Produits à la une&
+partnerTitle=Nos partenaires&
+p5=Nous collaborons très étroitement avec nos partenaires afin de vous proposer les meilleures offres.&
+partnerSlideText=Accéder <br> au site&
+,*-
+ACCOUNT=null&
+accountPageTitle=SaxBuy-Compte&
+accountTitle=Informations du compte&
+imgTxtLabel=Choisir une image :&
+imgButton=Télécharger&
+infoL0=Nom : &
+infoL1=Âge : &
+infoL2=Email : &
+infoL3=Addresse : &
+infoL4=Date d'enregistrement : &
+,*-
+CART=null&
+cartPageTitle=SaxBuy-Panier&
+cartTitle=Panier&
+priceTitle=Prix totale : &
+commandTitle=Les produits seront livrée à : &
+emptyTitle=Aucun produits dans votre panier pour l'instant&
+btnCommand=Commander maintenant&
+,*-
+LOAD=null&
+loadPageTitle=SaxBuy-Chargement&
+loaderTxt=Chargement...&
+sendTxt=Nous envoyons votre commande . . .&
+,*-
+LOGIN=null&
+loginPageTitle=SaxBuy-Connexion&
+loginTitle=Se connecter&
+emailph=Addresse E-Mail&
+resetBtn=Envoyer un mail de réinitialisation&
+backLogin=Retourner vers la connexion&
+passph=Mot de passe&
+passRepeatph=Répéter Mot de passe&
+confirmph=Code de confirmation&
+codeInfoTxt=Un code de confirmation vous à été envoyé par mail&
+connph=Code de connexion&
+logInBtnTxt=Connexion&
+forgotPassLink=Mot de passe oublié ?&
+keepConnectTxt= Garder connecté&
+,*-
+LOGON=null&
+logonPageTitle=SaxBuy-Inscription&
+logonTitle=S'inscrire&
+emailph=Addresse E-Mail&
+passph=Mot de passe&
+passRepeatph=Répéter Mot de passe&
+name=Nom&
+surname=Prénom&
+birthdate=Date de naissance&
+city=Ville&
+street=Rue&
+streetN=Numéro de boîte&
+pc=Code postale&
+logonBtn=S'inscrire&
+haveAccTxt=Déjà un compte ?&
+,*-
+PRODUCT_DETAIL=null&
+productPageTitle=Détails Produit&
+rateTxt=Le produit n'a pas encore été noté&
+qt=Quantité :&
+so=Epuisé&
+addBtn=Ajouter au panier&
+noAccTxt=Créez un compte pour acheter des produits&
+b=retour&
+commentTitle=Section Commentaires&
+404=Ce produit n'existe pas&
+,*-
+SHOP=null&
+shopPageTitle=SaxBuy-Boutique&
+searchbar=rechercher&
+filterTxt=Filtrer par:&
+filterL0=Tout les produits&
+filterL1=Anches&
+filterL2=Saxophones&
+filterL3=Becs&
+filterL4=Accessoires&
+,*-

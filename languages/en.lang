@@ -1,0 +1,100 @@
+NAVMENU=null&
+li0=Home&
+li1=Shop&
+li2=Log in&
+li3=Log on&
+li4=Cart&
+li5=Account&
+li6=Admin Panel&
+li7=Log off&
+disconnetMsg=You are about to log off, Are you sure ?&
+topBtn=Scroll to top&
+,*-
+INDEX=null&
+p0=SaxBuy is the pioneer of online sites specialized in saxophone sales.&
+p1=Discover now a wide choice of saxophone of all types and all brands, available in our catalog.&
+p2=All products have a one-year warranty and free maintenance before delivery.&
+p3=The delivery time rarely exceeds 2 weeks.&
+p4=Responsive and competent after-sales service of guaranteed quality, 24/7.&
+shopBtn=Access Shop Now&
+highlightTitle=Highlighted Products&
+partnerTitle=Our Partners&
+p5=We collaborate very closely with our partners in order to offer you the best deals.&
+partnerSlideText=Access <br>site&
+,*-
+ACCOUNT=null&
+accountPageTitle=SaxBuy-Account&
+accountTitle=Account informations&
+imgTxtLabel=Choose Image :&
+imgButton=Upload&
+infoL0=Name : &
+infoL1=Age : &
+infoL2=Mail : &
+infoL3=Address : &
+infoL4=Registration date : &
+,*-
+CART=null&
+cartPageTitle=SaxBuy-Cart&
+cartTitle=Shopping Cart&
+priceTitle=Total price : &
+commandTitle=The products will be delivered at : &
+emptyTitle=No products in your cart for the moment&
+btnCommand=Command now&
+,*-
+LOAD=null&
+loadPageTitle=SaxBuy-Load&
+loaderTxt=Loading...&
+sendTxt=We are sending your command . . .&
+,*-
+LOGIN=null&
+loginPageTitle=SaxBuy-Login&
+loginTitle=Log in&
+emailph=E-Mail Address&
+resetBtn=Send Reset Mail&
+backLogin=Get back to login&
+passph=Password&
+passRepeatph=Repeat password&
+confirmph=Confirmation code&
+codeInfoTxt=A confirmation code has been sent to your mail&
+connph=Connection code&
+logInBtnTxt=Log in&
+forgotPassLink=Forgot your password ?&
+keepConnectTxt=Keep connected&
+,*-
+LOGON=null&
+logonPageTitle=SaxBuy-Logon&
+logonTitle=Log on&
+emailph=E-Mail Address&
+passph=Password&
+passRepeatph=Repeat password&
+name=Name&
+surname=Surname&
+birthdate=Birthdate&
+city=City&
+street=Street&
+streetN=Street Number&
+pc=Postal code&
+logonBtn=Log on&
+haveAccTxt=Already have an account ?&
+,*-
+PRODUCT_DETAIL=null&
+productPageTitle=Product Details&
+rateTxt=This products hasn't been rated yet&
+qt=Quantity :&
+so=Sold Out&
+addBtn=Add product&
+noAccTxt=Create an acount to buy products&
+b=back&
+commentTitle=Comments Section&
+404=Product not existing&
+,*-
+SHOP=null&
+shopPageTitle=SaxBuy-Shop&
+searchbar=research&
+filterTxt=Filter by:&
+filterL0=All Products&
+filterL1=Reeds&
+filterL2=Saxophones&
+filterL3=Mouthpieces&
+filterL4=Accessories&
+,*-
